@@ -1,0 +1,12 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	font-family: avenir next;
+}
+
+
+
+HTML {
+	scroll-behavior: smooth;
+}
