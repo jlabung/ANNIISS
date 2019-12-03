@@ -11,6 +11,15 @@ HTML {
 	scroll-behavior: smooth;
 }
 
+.logomain {
+	width: 15vw;
+	padding-top: 40vh;
+
+}
+
+
+
+
 /*MRTIN CODE: below*/
 * {
 	margin: 0;
