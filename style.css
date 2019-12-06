@@ -11,15 +11,6 @@ HTML {
 	scroll-behavior: smooth;
 }
 
-.logomain {
-	width: 15vw;
-	padding-top: 40vh;
-
-}
-
-
-
-
 /*MRTIN CODE: below*/
 * {
 	margin: 0;
@@ -445,3 +436,22 @@ div.img {
 }
 
 /*MRTIN CODE: above*/
+
+.posts{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+article{
+	border: 2px black solid;
+	margin: 2rem;
+	display: flex;
+	flex-direction: column;
+
+}
+img{
+	width: 100%;
+	align-self: center;
+}
+h1{
+	padding: 1rem;
+}
