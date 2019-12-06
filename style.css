@@ -437,21 +437,24 @@ div.img {
 
 /*MRTIN CODE: above*/
 
-.posts{
+.posts {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
-article{
+
+article {
 	border: 2px black solid;
 	margin: 2rem;
 	display: flex;
 	flex-direction: column;
 
 }
-img{
+
+.merch {
 	width: 100%;
 	align-self: center;
 }
-h1{
+
+h1 {
 	padding: 1rem;
 }

@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded", getData);
 
 function getData() {
-	fetch("http://popispop.net/anniiss_wordpress/wp-json/wp/v2/picture?_embed")
+	fetch("http://popispop.net/anniiss_wordpress/wp-json/wp/v2/pictures?_embed")
 		.then(res => res.json())
 		.then(handleData);
 
