@@ -1,39 +1,57 @@
-window.addEventListener("DOMContentLoaded", getData);
+window.addEventListener("DOMContentLoaded", getMerch);
 //alert("hello");
 
-function getData() {
-	const urlParams = new URLSearchParams(window.location.search);
-	const search = urlParams.get("search");
-	//document.querySelector("h1").textContent = query
 
-	const id = urlParams.get("id");
-	const category = urlParams.get("category");
-
-	console.log("id: " + id);
-
-	if (search) {
-		console.log("this is a search result")
-		getSearchData();
-	} else if (id) {
-		getSingleMovie();
-	} else if (category) {
-		getCategoryData(category);
-		console.log("you should be showing category", category);
-
-	} else {
-		console.log("NOT SEARCHING")
-		getFrontpageData();
-	}
-
-	getNavigation()
+function getMerch() {
+	fetch("http://popispop.net/anniiss_wordpress/wp-json/wp/v2/merch?_embed")
+		.then(res => res.json())
+		.then(handleData);
 }
 
-function getNavigation() {
-	fetch("http://popispop.net/anniiss/wp-json/wp/v2/categories?per_page.search=100")
-		.then(res => res.json())
-		.then(data => {
-			console.log(data)
-			data.forEach(addLink)
-		})
+function handleData(myData) {
+	//1.loop
+	myData.forEach(showPost);
+}
 
+function showPost(post) {
+	console.table(post);
+
+	const imgPath = post._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url;
+
+	//2. Clone a template
+	const template = document.querySelector(".myTemplate").content;
+	const postCopy = template.cloneNode(true);
+
+	//3. Using textContent & innerHTML for text and src for img
+
+	postCopy.querySelector(".item").innerHTML = post.item
+	postCopy.querySelector(".price").innerHTML = post.price
+	postCopy.querySelector(".color").innerHTML = post.size
+
+	postCopy.querySelector(".size").innerHTML = post.color
+
+	//postCopy.querySelector(".publisher").innerHTML = post.director;
+
+	//postCopy.querySelector(".body-copy").innerHTML = post.content.rendered;
+
+	//postCopy.querySelector(".released").textContent = post.released;
+
+	//postCopy.querySelector(".price").textContent = post.price;
+
+	//postCopy.querySelector(".starring").textContent = post.starring;
+
+	const img = postCopy.querySelector("img");
+	img.setAttribute("src", imgPath);
+
+	img.setAttribute("alt", "image of the book");
+
+	//const a = postCopy.querySelector("a");
+	//a.href = "subpage.html?id=" + post.id
+
+
+
+
+
+	//4- append
+	document.querySelector(".posts").appendChild(postCopy);
 }
