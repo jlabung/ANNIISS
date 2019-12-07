@@ -17,6 +17,26 @@ HTML {
 
 }
 
+#bio {
+	padding-top: 9vh;
+}
+
+.aboutfont {
+	font-size: 20px;
+	font-family: avenir next;
+	line-height: 34px;
+	text-align: left;
+
+}
+
+#aboutbgpic {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url(img/four.jpg) center no-repeat;
+	background-size: cover;
+
+}
+
 /*MRTIN CODE: below*/
 * {
 	margin: 0;
@@ -39,6 +59,8 @@ a {
 	text-decoration: none;
 	color: #eee;
 }
+
+
 
 header {
 	width: 100%;
@@ -456,19 +478,12 @@ article {
 
 }
 
-<<<<<<< HEAD
-.merch {
-=======
-img {
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
+<<<<<<< HEAD .merch {
+	=======img {
+		<<<<<<< HEAD > > > > > > > origin/master======= > > > > > > > origin/master width: 100%;
+		align-self: center;
+	}
 
->>>>>>> origin/master
-	width: 100%;
-	align-self: center;
-}
-
-h1 {
-	padding: 1rem;
-}
+	h1 {
+		padding: 1rem;
+	}
