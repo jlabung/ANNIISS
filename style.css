@@ -22,15 +22,49 @@ HTML {
 
 }
 
+.five-star-line {
+	width: 80%;
+	height: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #666;
+	/*	background-color: aqua;*/
+	border: 0 none;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
 #bio {
-	padding-top: 9vh;
+	padding-top: 3vh;
+}
+
+.star {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 6em;
+}
+
+.aboutlogo {
+	max-width: 4vw;
+	height: auto;
+	opacity: .5;
+
+
 }
 
 .aboutfont {
-	font-size: 20px;
-	font-family: avenir next;
-	line-height: 34px;
-	text-align: left;
+
+	font-size: 2.3vmax;
+	font-family: Gaz Transport;
+	line-height: 30px;
+	text-align: justify;
+	padding-left: 25px;
+	padding-right: 25px;
+	/*
+	margin-left: auto;
+	margin-right: auto;
+*/
 
 }
 
