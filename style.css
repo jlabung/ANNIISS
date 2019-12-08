@@ -139,17 +139,20 @@ HTML {
 	height: 2px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #666;
-	/*	background-color: aqua;*/
+	/*	background-color: #666;*/
+	/*		background-color: aqua;*/
+	background-color: whitesmoke;
 	border: 0 none;
 	margin-top: 50px;
 	margin-bottom: 50px;
 
 }
 
+/*
 #bio {
 	padding-top: 3vh;
 }
+*/
 
 .star {
 	display: flex;
@@ -169,10 +172,10 @@ HTML {
 
 	font-size: 2.3vmax;
 	font-family: Gaz Transport;
-	line-height: 30px;
+	line-height: 32px;
 	text-align: justify;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
 	/*
 	margin-left: auto;
 	margin-right: auto;
