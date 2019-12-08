@@ -20,7 +20,13 @@
 </head>
 
 <body>
+
+
 	<header>
+
+		<div>
+			<iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/xVPf2HtpOWY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
 		<div class="container">
 			<nav>
 				<h1 class="portfolio"><a href="index.html">ANN<span>ii</span>SS</a></h1>
@@ -34,9 +40,37 @@
 					<li><a href="gallery.html">Gallery</a></li>
 				</ul>
 			</nav>
-			<img class="logomain" src="img/logo/LOGO_white.png">
+
+
+			<div class="content">
+				<h1>FOLLOW ANNIISS</h1>
+<!--				<p>FOLLOW ANNIISS</p>-->
+				<button class="myBtn">
+					<a class="tick" href="https://www.instagram.com/anniissmusic/" target="_blank">INSTAGRAM</a>
+				</button>
+				<button class="myBtn">
+					<a class="tick" href="https://www.facebook.com/anniissmusic/" target="_blank">FACEBOOK</a>
+				</button>
+				<button class="myBtn">
+					<a class="tick" href="https://gliss.bandcamp.com" target="_blank">BANDCAMP</a>
+				</button>
+
+				<!--				Use a button to pause/play the video with JavaScript-->
+				<button class="myBtn" onclick="myFunction()">Pause</button>
+			</div>
+
 		</div>
+
+
 	</header>
+
+
+
+
+
+
+
+	<script src="video.js"></script>
 
 	<script src="anniiss.js"></script>
 </body>

@@ -8,13 +8,82 @@
 }
 
 
-
-
-
-
 HTML {
 	scroll-behavior: smooth;
 }
+
+
+
+/*video css here*/
+
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+	position: relative;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.0);
+	color: #f1f1f1;
+	/*	width: 40%;*/
+	padding-left: 4em;
+	padding-top: 28rem;
+}
+
+
+}
+
+
+.content > h1 {
+
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+
+}
+
+.boost {
+	padding-bottom: 38rem;
+	padding-left: 4rem;
+}
+
+
+
+/* Style the button used to pause/play the video */
+.myBtn {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+}
+
+.myBtn:hover {
+	background: #ddd;
+	color: black;
+}
+
+.tick {
+	text-decoration: none;
+	color: white;
+}
+
+
+/*video css above here*/
+
+
+
 
 .logomain {
 	width: 15vw;
