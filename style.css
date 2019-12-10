@@ -250,9 +250,13 @@ a {
 	color: #eee;
 }
 
+li {
+	cursor: pointer;
+
+}
 
 
-header {
+header.backgroundHome {
 	width: 100%;
 	height: 100vh;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url(img/two.jpg) center no-repeat;
@@ -689,10 +693,11 @@ h1 {
 	}
 */
 /*for shows*/
-.logo{
+.logo {
 	width: 90%;
-	padding : 4rem;
+	padding: 4rem;
 }
+
 /*
 
 button.show-modal{
@@ -711,24 +716,26 @@ article.event-item{
 */
 
 .modal_background {
-  position: fixed;
-  z-index: 10;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
 }
+
 .modal_content {
-  background-color: #fefefe;
-  border: 1px solid #7c1f17;
-  margin: 1em;
-  padding: 2em;
+	background-color: #fefefe;
+	border: 1px solid #7c1f17;
+	margin: 1em;
+	padding: 2em;
 	background-color: rgba(255, 255, 255, 0.7);
 	text-align: center;
 
 }
-article button{
+
+article button {
 	justify-content: center;
 	background: whitesmoke;
 	border-radius: 25px;
@@ -738,35 +745,94 @@ article button{
 	margin-bottom: 1rem;
 	color: black;
 	transition: all 0.4s;
-	 cursor: pointer;
+	cursor: pointer;
 	margin-top: auto;
 }
-.hide{
+
+.hide {
 	display: none;
 }
-.modal_content img{
+
+.modal_content img {
 	width: 150px;
 	display: block;
 	margin: 0 auto;
 }
-article ul li{
+
+article ul li {
 	display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
 
 }
-article .head{
+
+article .head {
 	width: 100%;
 }
-article .list{
+
+article .list {
 	width: 100%;
 }
-article .container{
+
+article .container {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
 }
+
+/*
+.bcVideo{
+	width: 100%;
+}
+
+*/
+#container1 {
+	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+	justify-content: center;
+	flex-direction: row;
+
+}
+
+.bcPromo img {
+	width: 23.75vw;
+	margin: 5px;
+
+}
+
+/*
+.bcVideo{
+	padding-top: 56.25%;
+
+	margin: 5px:
+
+}
+*/
+#container1 {
+	position: relative;
+	overflow: hidden;
+	padding-top: 56.25%;
+}
+
+.bcVideo {
+	position: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+
+}
+.buttonLink{
+ display: flex;
+	justify-content: center;
+	outline: inherit;
+}
+
+
