@@ -565,7 +565,11 @@ div.img {
 	height: 60%;
 }
 
-
+@media (max-width:400px) {
+	.tick {
+		font-size: 4vw;
+	}
+}
 
 
 @media all and (min-width:360px) and (max-width:900px) {
@@ -576,6 +580,8 @@ div.img {
 
 
 	}
+
+
 
 	.aboutpic {
 		display: flex;
