@@ -33,7 +33,7 @@ function getShow(event) {
 	//2. Clone a template
 	const template = document.querySelector(".myTemplate").content;
 	const postCopy = template.cloneNode(true);
-	postCopy.querySelector(".artist_name").textContent = event.slug;
+	//postCopy.querySelector(".artist_name").textContent = event.slug;
 	postCopy.querySelector(".venue_name").textContent = event.venue;
 	postCopy.querySelector(".eventDate").textContent = event.event_date;
 	postCopy.querySelector(".eventDescription").textContent = event.description;
@@ -52,7 +52,7 @@ function getShow(event) {
 		alert("thank you for choosing us");
 	});
 
-	document.querySelector(".shows").appendChild(postCopy);
+	document.querySelector(".posts").appendChild(postCopy);
 //
 //	function showMore(data) {
 //		console.log(data);

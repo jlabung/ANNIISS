@@ -650,7 +650,6 @@ div.img {
 	outline: aqua;
 	padding-top: 4rem;
 
-
 }
 
 
@@ -664,14 +663,7 @@ article {
 	margin: 1rem;
 	display: flex;
 	flex-direction: column;
-
-
-
-
-
 }
-
-
 
 .merch {
 	width: 100%;
@@ -681,6 +673,7 @@ article {
 h1 {
 	padding: 1rem;
 }
+
 
 /*merch grid here*/
 
@@ -747,9 +740,6 @@ article button{
 	transition: all 0.4s;
 	 cursor: pointer;
 	margin-top: auto;
-
-
-
 }
 .hide{
 	display: none;
@@ -758,4 +748,25 @@ article button{
 	width: 150px;
 	display: block;
 	margin: 0 auto;
+}
+article ul li{
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+article .head{
+	width: 100%;
+}
+article .list{
+	width: 100%;
+}
+article .container{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 }
