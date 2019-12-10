@@ -748,6 +748,10 @@ article button {
 	cursor: pointer;
 	margin-top: auto;
 }
+section.post{
+	display: flex;
+	flex-direction: column;
+}
 
 .hide {
 	display: none;
@@ -835,6 +839,7 @@ article .container {
  display: flex;
 	justify-content: center;
 	outline: inherit;
+	padding: 2rem;
 }
 
 
