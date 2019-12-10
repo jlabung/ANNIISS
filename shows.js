@@ -1,3 +1,16 @@
+const modal = document.querySelector(".modal_background");
+modal.addEventListener("click", () => {
+	modal.classList.add("hide");
+})
+
+const btn = document.querySelector(".ticket");
+btn.addEventListener("click", () => {
+	console.log("button clicked")
+	//window.location.href = "http://www.w3schools.com";
+	alert("Thank yoy for choosing Anniiss ,Have a good day");
+})
+
+
 window.addEventListener("DOMContentLoaded", getData);
 
 function getData() {
@@ -33,7 +46,33 @@ function getShow(event) {
 	img.setAttribute("src", imgPath);
 
 	img.setAttribute("alt", "image of the book");
+
+	postCopy.querySelector("button").addEventListener("click", () => {
+		//showMore();
+		alert("thank you for choosing us");
+	});
+
 	document.querySelector(".shows").appendChild(postCopy);
+//
+//	function showMore(data) {
+//		console.log(data);
+//
+//		modal.querySelector("h1").innerHTML = data.title.rendered
+//		modal.querySelector(".body-copy").innerHTML = data.content.rendered;
+//
+//		modal.querySelector(".publisher").textContent = data.director;
+//
+//		modal.querySelector(".pic").src = data._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url;
+//
+//		modal.querySelector(".starring").innerHTML = data.starring;
+//
+//		modal.querySelector(".price").textContent = data.price;
+//
+//		modal.querySelector(".released").textContent = data.released;
+//
+//
+//		modal.classList.remove("hide");
+//	}
 
 
 }
