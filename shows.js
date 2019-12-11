@@ -48,37 +48,38 @@ function getShow(event) {
 	//
 	const img = postCopy.querySelector("img");
 	img.setAttribute("src", imgPath);
-	img.setAttribute("height", "324.66px");
+//		img.setAttribute("height", "324.66px");
+	img.setAttribute("height", "25%");
 
 	img.setAttribute("alt", "image of the book");
 
-//	postCopy.querySelector("button").addEventListener("click", () => {
-//		//showMore();
-//		alert("thank you for choosing us");
-//
-//	});
+	//	postCopy.querySelector("button").addEventListener("click", () => {
+	//		//showMore();
+	//		alert("thank you for choosing us");
+	//
+	//	});
 
 	document.querySelector(".posts").appendChild(postCopy);
 
-//	function showMore(data) {
-//		console.log(data);
-//
-//		modal.querySelector("h1").innerHTML = data.title.rendered
-//		modal.querySelector(".body-copy").innerHTML = data.content.rendered;
-//
-//		modal.querySelector(".publisher").textContent = data.director;
-//
-//		modal.querySelector(".pic").src = data._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url;
-//
-//		modal.querySelector(".starring").innerHTML = data.starring;
-//
-//		modal.querySelector(".price").textContent = data.price;
-//
-//		modal.querySelector(".released").textContent = data.released;
-//
-//
-//		modal.classList.remove("hide");
-//	}
+	//	function showMore(data) {
+	//		console.log(data);
+	//
+	//		modal.querySelector("h1").innerHTML = data.title.rendered
+	//		modal.querySelector(".body-copy").innerHTML = data.content.rendered;
+	//
+	//		modal.querySelector(".publisher").textContent = data.director;
+	//
+	//		modal.querySelector(".pic").src = data._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url;
+	//
+	//		modal.querySelector(".starring").innerHTML = data.starring;
+	//
+	//		modal.querySelector(".price").textContent = data.price;
+	//
+	//		modal.querySelector(".released").textContent = data.released;
+	//
+	//
+	//		modal.classList.remove("hide");
+	//	}
 
 
 }
