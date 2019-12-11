@@ -748,7 +748,8 @@ article button {
 	cursor: pointer;
 	margin-top: auto;
 }
-section.post{
+
+section.post {
 	display: flex;
 	flex-direction: column;
 }
@@ -835,11 +836,10 @@ article .container {
 	padding: 0;
 
 }
-.buttonLink{
- display: flex;
+
+.buttonLink {
+	display: flex;
 	justify-content: center;
 	outline: inherit;
 	padding: 2rem;
 }
-
-

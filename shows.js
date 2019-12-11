@@ -6,9 +6,9 @@ modal.addEventListener("click", () => {
 const btn = document.querySelector(".ticket");
 btn.addEventListener("click", () => {
 	console.log("button clicked")
-	//window.location.href = "http://www.w3schools.com";
-	alert("Thank yoy for choosing Anniiss ,Have a good day");
+
 })
+
 
 
 window.addEventListener("DOMContentLoaded", getData);
@@ -39,6 +39,10 @@ function getShow(event) {
 	postCopy.querySelector(".eventDescription").textContent = event.description;
 	postCopy.querySelector(".eventAddress").textContent = event.address;
 
+	let link = event.link
+	let anchorTag = postCopy.querySelector("button .link")
+	anchorTag.setAttribute('href', link)
+
 
 	//	postCopy.querySelector(".description").textContent = event.description;
 	//
@@ -47,13 +51,14 @@ function getShow(event) {
 
 	img.setAttribute("alt", "image of the book");
 
-	postCopy.querySelector("button").addEventListener("click", () => {
-		//showMore();
-		alert("thank you for choosing us");
-	});
+//	postCopy.querySelector("button").addEventListener("click", () => {
+//		//showMore();
+//		alert("thank you for choosing us");
+//
+//	});
 
 	document.querySelector(".posts").appendChild(postCopy);
-//
+
 //	function showMore(data) {
 //		console.log(data);
 //
