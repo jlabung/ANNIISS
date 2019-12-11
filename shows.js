@@ -48,6 +48,7 @@ function getShow(event) {
 	//
 	const img = postCopy.querySelector("img");
 	img.setAttribute("src", imgPath);
+	img.setAttribute("height", "324.66px");
 
 	img.setAttribute("alt", "image of the book");
 

@@ -817,6 +817,7 @@ article ul li {
 
 article .head {
 	width: 100%;
+
 }
 
 article .list {
@@ -894,6 +895,13 @@ iframe {
 	display: grid;
 }
 
+
+
+
+#musicPlayer {
+	display: grid;
+}
+
 .bcVideo {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -902,6 +910,10 @@ iframe {
 	align-content: center;
 }
 
-section #anniiss_square {
+section #musicPlayer {
+	width: 100%;
+}
+
+section #anniiss_Image {
 	width: 100%;
 }
