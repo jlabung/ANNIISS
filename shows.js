@@ -39,9 +39,9 @@ function getShow(event) {
 	postCopy.querySelector(".eventDescription").textContent = event.description;
 	postCopy.querySelector(".eventAddress").textContent = event.address;
 
-	let link = event.link
-	let anchorTag = postCopy.querySelector("button .link")
-	anchorTag.setAttribute('href', link)
+	let link = event.link;
+	let anchorTag = postCopy.querySelector(".link");
+	anchorTag.setAttribute('href', link);
 
 
 	//	postCopy.querySelector(".description").textContent = event.description;

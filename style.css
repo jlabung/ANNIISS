@@ -860,7 +860,6 @@ article .container {
 #container1 {
 	position: relative;
 	overflow: hidden;
-	padding-top: 56.25%;
 }
 
 .bcVideo {
@@ -878,4 +877,23 @@ article .container {
 	justify-content: center;
 	outline: inherit;
 	padding: 2rem;
+}
+#anniiss_square{
+	width: 100%;
+	height: 96%;
+	margin: 1rem;
+	display: grid;
+}
+iframe{
+	display: grid;
+}
+.bcVideo{
+	display: grid;
+	grid-template-columns: 1fr  1fr;
+	grid-gap: 1em;
+	margin: 0px auto;
+	align-content: center;
+}
+section #anniiss_square{
+	width: 100%;
 }
