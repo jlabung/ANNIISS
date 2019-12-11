@@ -99,9 +99,24 @@ HTML {
 	padding-left: 4rem;
 }
 
+#player {
+	display: block;
+	max-width: 100vw !important;
+}
+
+#anniiss-iframe {
+	max-width: 100vw !important;
+}
+
+iframe {
+	display: block;
+	margin: 0px auto;
+
+}
 
 
 /* Style the button used to pause/play the video */
+/*
 .myBtn {
 	width: 200px;
 	font-size: 18px;
@@ -111,10 +126,25 @@ HTML {
 	color: #fff;
 	cursor: pointer;
 }
+*/
+
+.myBtn {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px;
+	background: none;
+	border: solid;
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+
 
 .myBtn:hover {
 	background: #ddd;
+	/*	background: crimson;*/
 	color: black;
+	/*	opacity: .9;*/
 }
 
 .tick {
