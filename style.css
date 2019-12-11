@@ -133,18 +133,19 @@ iframe {
 	font-size: 18px;
 	padding: 10px;
 	background: none;
-	border: solid;
+	/*	border: solid;*/
 	color: whitesmoke;
 	cursor: pointer;
+
 }
 
 
 
 .myBtn:hover {
-	background: #ddd;
-	/*	background: crimson;*/
+	/*	background: #ddd;*/
+	background: none;
 	color: black;
-	/*	opacity: .9;*/
+	border-color: dimgray;
 }
 
 .tick {
@@ -840,7 +841,7 @@ article .container {
 	display: block;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 5px;
+	padding: 17px;
 	justify-content: center;
 	flex-direction: row;
 
