@@ -133,18 +133,19 @@ iframe {
 	font-size: 18px;
 	padding: 10px;
 	background: none;
-	border: solid;
+	/*	border: solid;*/
 	color: whitesmoke;
 	cursor: pointer;
+
 }
 
 
 
 .myBtn:hover {
-	background: #ddd;
-	/*	background: crimson;*/
+	/*	background: #ddd;*/
+	background: none;
 	color: black;
-	/*	opacity: .9;*/
+	border-color: dimgray;
 }
 
 .tick {
@@ -693,15 +694,18 @@ div.img {
 }
 
 
+/*merch display here*/
+
 
 article {
+	display: flex;
+	justify-content: flex-end;
 	border: 1px white solid;
 	border-radius: 10px;
 	/*	background-color: white;*/
 	font-size: 14px;
 	color: ghostwhite;
 	margin: 1rem;
-	display: flex;
 	flex-direction: column;
 }
 
@@ -751,6 +755,7 @@ article.event-item{
 }
 */
 
+/*
 .modal_background {
 	position: fixed;
 	z-index: 10;
@@ -769,7 +774,7 @@ article.event-item{
 	background-color: rgba(255, 255, 255, 0.7);
 	text-align: center;
 
-}
+}*/
 
 article button {
 	justify-content: center;
@@ -836,7 +841,7 @@ article .container {
 	display: block;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 5px;
+	padding: 17px;
 	justify-content: center;
 	flex-direction: row;
 
@@ -879,26 +884,37 @@ article .container {
 	outline: inherit;
 	padding: 2rem;
 }
-#anniiss_square{
+
+#anniiss_square {
 	width: 100%;
 	height: 96%;
 	margin: 1rem;
 	display: grid;
 }
-#musicPlayer{
+
+iframe {
 	display: grid;
 }
 
-.bcVideo{
+
+
+
+#musicPlayer {
 	display: grid;
-	grid-template-columns: 1fr  1fr;
+}
+
+.bcVideo {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	grid-gap: 1em;
 	margin: 0px auto;
 	align-content: center;
 }
-section #musicPlayer{
+
+section #musicPlayer {
 	width: 100%;
 }
-section #anniiss_Image{
+
+section #anniiss_Image {
 	width: 100%;
 }
