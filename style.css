@@ -154,6 +154,29 @@ iframe {
 }
 
 
+/*button jump up and down here*/
+
+.jump {
+	text-decoration: none;
+	color: black;
+	padding-left: 2.2rem;
+	font-size: 1.2rem;
+	font-family: Avenir, Roboto, Helvetica, san-serif;
+}
+
+.jumptop {
+	text-decoration: none;
+	color: black;
+	font-size: 1.2rem;
+	padding-left: 2.2rem;
+	font-family: Avenir, Roboto, Helvetica, san-serif;
+	/*	position: absolute;*/
+	/* display: flex; */
+	text-align: left;
+
+}
+
+
 /*video css above here*/
 
 
