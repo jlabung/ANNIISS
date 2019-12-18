@@ -14,7 +14,7 @@ function handleData(myData) {
 }
 
 function showPost(post) {
-	console.table(post);
+	console.log(post);
 
 	const imgPath = post._embedded["wp:featuredmedia"][0].media_details.sizes.full.source_url;
 
