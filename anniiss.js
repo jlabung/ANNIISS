@@ -49,7 +49,7 @@ function showPost(post) {
 	//a.href = "subpage.html?id=" + post.id
 
 
-//cos
+//coss
 
 
 	//4- append
